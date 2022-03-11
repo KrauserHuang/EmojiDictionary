@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		4F08CE1027D9F2340045C694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08CE0F27D9F2340045C694 /* AppDelegate.swift */; };
 		4F08CE1227D9F2340045C694 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08CE1127D9F2340045C694 /* SceneDelegate.swift */; };
-		4F08CE1427D9F2340045C694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08CE1327D9F2340045C694 /* ViewController.swift */; };
 		4F08CE1727D9F2340045C694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F08CE1527D9F2340045C694 /* Main.storyboard */; };
 		4F08CE1927D9F2390045C694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F08CE1827D9F2390045C694 /* Assets.xcassets */; };
 		4F08CE1C27D9F2390045C694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F08CE1A27D9F2390045C694 /* LaunchScreen.storyboard */; };
+		4F08CE2427D9F2760045C694 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08CE2327D9F2760045C694 /* Emoji.swift */; };
+		4F08CE2627D9FD510045C694 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08CE2527D9FD510045C694 /* EmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F08CE0C27D9F2340045C694 /* EmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F08CE0F27D9F2340045C694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F08CE1127D9F2340045C694 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F08CE1327D9F2340045C694 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F08CE1627D9F2340045C694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F08CE1827D9F2390045C694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F08CE1B27D9F2390045C694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F08CE1D27D9F2390045C694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F08CE2327D9F2760045C694 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		4F08CE2527D9FD510045C694 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				4F08CE0F27D9F2340045C694 /* AppDelegate.swift */,
 				4F08CE1127D9F2340045C694 /* SceneDelegate.swift */,
-				4F08CE1327D9F2340045C694 /* ViewController.swift */,
+				4F08CE2327D9F2760045C694 /* Emoji.swift */,
+				4F08CE2527D9FD510045C694 /* EmojiTableViewController.swift */,
 				4F08CE1527D9F2340045C694 /* Main.storyboard */,
 				4F08CE1827D9F2390045C694 /* Assets.xcassets */,
 				4F08CE1A27D9F2390045C694 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F08CE1427D9F2340045C694 /* ViewController.swift in Sources */,
+				4F08CE2627D9FD510045C694 /* EmojiTableViewController.swift in Sources */,
+				4F08CE2427D9F2760045C694 /* Emoji.swift in Sources */,
 				4F08CE1027D9F2340045C694 /* AppDelegate.swift in Sources */,
 				4F08CE1227D9F2340045C694 /* SceneDelegate.swift in Sources */,
 			);
