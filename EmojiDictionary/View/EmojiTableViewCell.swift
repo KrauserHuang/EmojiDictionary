@@ -16,6 +16,7 @@ class EmojiTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+//        contentView.addShadow(offset: CGSize.init(width: 0, height: 3), color: .black, radius: 2, opacity: 0.35)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
